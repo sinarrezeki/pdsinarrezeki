@@ -1,0 +1,70 @@
+.social-media {
+  position: fixed;
+  width: 50px;
+  margin-top: 160px;
+  transition: all 0.3s linear;
+  z-index: 99;
+}
+
+.social-media li {
+  height: 40px;
+  position: relative;
+}
+
+.social-media li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 40px;
+  padding-left: 25%;
+  transition: all 0.3s linear;
+}
+
+.social-media li:nth-child(1) a {
+  background: #25d366;
+}
+
+.social-media li:nth-child(2) a {
+  background: #4267b2;
+}
+
+.social-media li:nth-child(3) a {
+  background: #1da1f2;
+}
+
+.social-media li:nth-child(4) a {
+  background: #e1306c;
+}
+
+.social-media li:nth-child(5) a {
+  background: #2867b2;
+}
+
+.social-media li:nth-child(6) a {
+  background: #ff0000;
+}
+
+.social-media li a i {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  font-size: 20px;
+}
+
+.social-media ul li a span {
+  display: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.social-media a:hover {
+  z-index: 1;
+  width: 170px;
+}
+
+.social-media ul li:hover a span {
+  padding-left: 25%;
+  display: block;
+}

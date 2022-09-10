@@ -1,0 +1,95 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  padding-top: 3rem;
+}
+
+.logo {
+  max-width: 40px;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+textarea {
+  resize: none;
+}
+
+/* index.php */
+.btn.btn-orangered {
+  background-color: #ff4500;
+  border-color: #ff4500;
+}
+
+.btn.btn-orangered:hover {
+  background-color: #e74b12;
+  border-color: #e74b12;
+}
+
+/* brand.php */
+.brand-bg {
+  background-image: url(../img/brand.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* product.php */
+.img-width {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+/* about-us.php */
+.about-us h1,
+.about-us h2 {
+  font-family: 'Courgette', cursive;
+}
+
+.about-us {
+  background-image: url(../img/about.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* contact-us.php */
+.contact-us {
+  background-color: #f6f8fd;
+}
+
+.contact-us .img-width {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
